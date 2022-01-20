@@ -12,4 +12,4 @@ if builtin command -v bat > /dev/null; then
   alias less='bat --paging=always'
 fi
 
-
+zinit light zdharma-continuum/history-search-multi-word
