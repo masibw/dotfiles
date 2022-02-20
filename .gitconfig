@@ -20,3 +20,13 @@
     colorMoved = default
 [init]
 	defaultBranch = main
+
+[alias]
+  graph =  log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+  st = status
+  cm = commit
+  br = branch
+  co = checkout
+  cob = checkout -b
+  sw = switch
+  swc = switch -c
